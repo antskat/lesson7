@@ -1,10 +1,17 @@
-/* h2{
+ :root{
+    --accent-color: #FED136;
+    --main-color: #777;
+    --add-color: #222;
+    --add-white: #fff;
+ }
+ 
+ /* h2{
     color: red;
 } */
 /* *{
     color: green;
 } */
-a{
+/* a{
     text-decoration: none;
 }
 .list{
@@ -17,7 +24,7 @@ a{
 /* #hero{
     color: gray;
 } */
-a[href*="google"] {
+/* a[href*="google"] {
     color: orange;
 }
 h2, h3, ul{
@@ -28,4 +35,17 @@ header li{
 }
 .hero ~ p {
     background-color: gray;
+} */ 
+
+h2, h3{
+    color: var(--accent-color);
+}
+.nav{
+    color: rgb(13, 224, 183);
+}
+header{
+    background-color: rgba(29, 2, 102, 0.7);
+}
+.list-hero > li{
+    color: #5CEE60;
 }
